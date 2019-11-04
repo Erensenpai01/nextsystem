@@ -56,7 +56,7 @@ if (message.content.startsWith(prefix + 'setgame')) {
 const queue = new Map();
 client.on('ready', function() {
 	console.log(`i am ready ${client.user.username}`);
-    client.user.setGame('IDKForLife',"https://www.twitch.tv/peery13");
+    client.user.setGame('𝒯𝒽𝑒 𝒩𝑒𝓍𝓉 𝒯𝒶𝓇𝑔𝑒𝓉 ◜🎃◞',"https://www.twitch.tv/peery13");
 });
 
 
@@ -189,6 +189,8 @@ client.on("message", message => {
          ${prefix}guilds: عدد سيرفر البوت
          ${prefix}inv   : دعوه البوت الى سيرفر
          ${prefix}help  : عرض هذه الرسالة
+         ------------------------------
+                                      **__By Eren Senpai#0020
          ------------------------------
          
        **  `)
@@ -472,10 +474,10 @@ client.on('message', async message => {
 
 
 client.on("guildMemberAdd", memb => {
-        if(memb.guild.id === "518607104777388043") {  // ايدي السيرفر
-  const channel = memb.guild.channels.find('id', '616636717834698777'); //ايدي الروم
+        if(memb.guild.id === "608089727400280080") {  // ايدي السيرفر
+  const channel = memb.guild.channels.find('id', '625811666600460288'); //ايدي الروم
 if (!channel) return;
-channel.send(`**<@${memb.user.id}> Welcome To Í.Ð.Ķ Family  ** ❤️ `)  
+channel.send(`**<@${memb.user.id}> Welcome To 𝒯𝒽𝑒 𝒩𝑒𝓍𝓉 𝒯𝒶𝓇𝑔𝑒𝓉 ◜🎃◞  ** ❤️ `)  
 
 }});
 
