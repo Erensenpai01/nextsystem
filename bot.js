@@ -190,7 +190,7 @@ client.on("message", message => {
          ${prefix}inv   : دعوه البوت الى سيرفر
          ${prefix}help  : عرض هذه الرسالة
          ------------------------------
-                                      **__By Eren Senpai#0020
+                                      **__By Eren Senpai#0020__**
          ------------------------------
          
        **  `)
