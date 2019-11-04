@@ -190,8 +190,6 @@ client.on("message", message => {
          ${prefix}inv   : دعوه البوت الى سيرفر
          ${prefix}help  : عرض هذه الرسالة
          ------------------------------
-                                      **__By Eren Senpai#0020__**
-         ------------------------------
          
        **  `)
    message.author.sendEmbed(embed)
