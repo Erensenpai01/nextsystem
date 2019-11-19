@@ -56,8 +56,8 @@ if (message.content.startsWith(prefix + 'setgame')) {
 const queue = new Map();
 client.on('ready', function() {
 	console.log(`i am ready ${client.user.username}`);
-    client.user.setGame('𝒯𝒽𝑒 𝒩𝑒𝓍𝓉 𝒯𝒶𝓇𝑔𝑒𝓉 ◜🎃◞',"https://www.twitch.tv/peery13");
-});
+    client.user.setGame('𝜠𝙧𝙚𝞰 𝙎𝙚𝞰𝙥𝙖𝒊 💯',"https://www.twitch.tv/peery13");
+});🆒️
 
 
 client.on('message', message => {
