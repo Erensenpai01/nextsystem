@@ -56,7 +56,7 @@ if (message.content.startsWith(prefix + 'setgame')) {
 const queue = new Map();
 client.on('ready', function() {
 	console.log(`i am ready ${client.user.username}`);
-    client.user.setGame('𝜠𝙧𝙚𝞰 𝙎𝙚𝞰𝙥𝙖𝒊',"https://www.twitch.tv/peery13");
+    client.user.setGame('+help',"https://www.twitch.tv/peery13");
 });
 
 
@@ -169,6 +169,7 @@ client.on("message", message => {
          .setColor("#6910dd")
          .setThumbnail(message.author.avatarURL)
          .setDescription(`**
+         ``By Eren Senpai``
          ------------------------------
          ${prefix}id   : عرض ملفك الشخصي
          ${prefix}ask  : البوت يسئلك اسئلة
